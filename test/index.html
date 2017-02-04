@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Template</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Kube CSS -->
+    <link rel="stylesheet" href="../kube-6.5.2/dist/css/kube.css">
+    <link rel="stylesheet" href="../kube-6.5.2/dist/css/kube.demo.css">
+
+</head>
+<body>
+<hr>
+//breadcrubs
+<nav class="breadcrumbs">
+    <ul>
+        <li><a href="">主页</a></li>
+        <li><span>1</span></li>
+        <li><span>2</span></li>
+        <li><span>3</span></li>
+        <li><span>4</span></li>
+    </ul>
+</nav>
+<hr>
+//table
+<table class="bordered striped">
+    <tr>
+        <td class="w40">First Name</td>
+        <td class="w40">Last Name</td>
+        <td class="w20">Points</td>
+    </tr>
+    <tr>
+        <td class="w40">First Name</td>
+        <td class="w40">Last Name</td>
+        <td class="w20">Points</td>
+    </tr>
+    <tr>
+        <td class="w40">First Name</td>
+        <td class="w40">Last Name</td>
+        <td class="w20">Points</td>
+    </tr>
+    <tr>
+        <td class="w40">First Name</td>
+        <td class="w40">Last Name</td>
+        <td class="w20">Points</td>
+    </tr>
+    <tr>
+        <td class="w40">First Name</td>
+        <td class="w40">Last Name</td>
+        <td class="w20">Points</td>
+    </tr>
+</table>
+<hr>
+//Dropdown <br>
+<a href="#" data-component="offcanvas" data-target="#offcanvas-left">Open Left</a>
+
+<div id="offcanvas-left" class="hide">
+    <nav>
+        <ul>
+            <li>我是中国人呢</li>
+            <li>我是中国人呢2</li>
+            <li>我是中国人呢3</li>
+        </ul>
+    </nav>
+</div>
+<hr>
+//Msg
+<div class="message error" data-component="message"> 我是中国人 <span class="close small"></span></div>
+
+<hr>
+//Modal
+<button data-component="modal" data-target="#my-modal">Open</button>
+
+<div id="my-modal" class="modal-box hide">
+    <div class="modal">
+        <span class="close"></span>
+        <div class="modal-header">Modal Header</div>
+        <div class="modal-body">...</div>
+    </div>
+</div>
+
+<hr>
+//Navigation
+<div id="navbar-demo" data-component="sticky" data-loaded="true">
+    <div id="navbar-brand">
+        <a class="h3" href="javascript:" style="text-decoration:none;">
+            数据字典
+        </a>
+    </div>
+    <nav id="navbar-main">
+        <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+            <li>
+                <button data-component="dropdown" data-target="#my-dropdown">Show Dropdown <span class="caret down"></span></button>
+                <div class="dropdown hide" id="my-dropdown">
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <p style="padding:3px 10px;">我是中国人</p>
+                    <a style="padding:3px 10px;" href="#" data-action="dropdown-close">Close</a>
+
+                </div>
+            </li>
+            <li><span class="label upper black">Label</span></li>
+        </ul>
+    </nav>
+</div>
+<hr>
+//按钮
+<li class="button secondary round"><i class="kube-calendar"></i> 页面</button></li>
+
+</body>
+</html>
+<script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+<script src="../kube-6.5.2/dist/js/kube.js"></script>
+

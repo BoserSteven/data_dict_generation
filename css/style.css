@@ -1,0 +1,67 @@
+body{
+    font: 14px/1.5 "PingFang SC",Helvetica,"Helvetica Neue","微软雅黑",Tahoma,Arial,sans-serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "PingFang SC", Helvetica, "Helvetica Neue", 微软雅黑, Tahoma, Arial, sans-serif;
+}
+::selection {
+    background: #ea1919;
+    color: #efefef;
+}
+a.label:hover i.fa{
+    display: inline-block !important;
+}
+.top{
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 36.7%;
+    z-index: 100;
+    color: #fff;
+    box-shadow: 0 3px 12px 0 rgba(7,17,27,.1);
+}
+.top i{
+    color:#ccc;
+}
+.top span{
+    width:100%;
+    height: 100%;
+}
+.top:hover{
+    line-height: 20px;
+    text-decoration: none;
+}
+.top:hover i{
+    display: none;
+}
+.top:hover span{
+    display: block !important;
+    margin-top:10px;
+}
+footer{
+    background: #000;
+    border-top: 1px solid #e2e4e6;
+    font-size: 12px;
+    color: #787d82;
+    padding: 27px 0;
+    min-width: 620px;
+    text-align: center;
+}
+.contents{
+    counter-reset: count;
+    max-width: 1024px;
+    margin: 24px auto 60px;
+    padding: 32px;
+    background: #fbfbfb;
+    border: 1px solid rgba(0,0,0,.08);
+}
