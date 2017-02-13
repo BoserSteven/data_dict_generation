@@ -8,5 +8,5 @@
 
 #使用
 
-    git clone https://github.com/boser90/data_dict_generation.git
+    $ git clone https://github.com/boser90/data_dict_generation.git
 
