@@ -19,8 +19,8 @@
             Generating table
         </a>
     </div>
-    <a href="dir.php" id="navbar-main" class="button round"><i class="fa fa-fw fa-database"></i>
-        数据字典总库</button></a>
+    <a href="dir.php" id="navbar-main" class="button"><i class="fa fa-fw fa-database"></i>
+        数据字典</button></a>
 </div>
 <!--navi-->
 <main id="main" class="contents">
@@ -54,7 +54,7 @@
                     <label class="checkbox label focus outline"><input type="checkbox" value="1"
                                                                        name="remember" <?php echo isset($_COOKIE['host']) ? 'checked' : ''; ?>>
                         记住7天</label>
-                    <button class="button primary " style="float: right" type="submit">生成</button>
+                    <button class="button primary " style="float: right" type="submit"><i class="fa fa-fw fa-superpowers"></i> 生成</button>
                 </div>
             </form>
         </div>

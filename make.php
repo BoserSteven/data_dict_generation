@@ -115,8 +115,8 @@ $head = '<!DOCTYPE html>
 $header = '<header id="navbar-demo" data-component="sticky" data-loaded="true">
     <div id="navbar-brand">
         <a class="h3" href="/" style="text-decoration:none;">
-            数据字典 - - <label class="label badge success">' . $database['DB_NAME'] . '</label> 生成时间 - - <label class="label badge warning">' . date('Y-m-d', time()) . '</label>
-            总共 - - <label class="label badge error">' . count($tables) . '</label> 张数据表
+            数据字典 <label class="label black">' . $database['DB_NAME'] . '</label> 生成时间 <label class="label black">' . date('Y-m-d', time()) . '</label>
+            总共 <label class="label black">' . count($tables) . '</label> 张数据表
         </a>
     </div>
 </header>';
@@ -140,7 +140,7 @@ $footer = '<footer>
 </footer>
 </body>
 </html>
-<script src="js/jquery-2.1.4.min.js"></script>
+<script src="../js/jquery-2.1.4.min.js"></script>
 <script src="../kube-6.5.2/dist/js/kube.js"></script>';
 file_put_contents('table/' . $database['DB_NAME'] . '.html', $head . $header . $main . $footer);
 if (file_exists('table/' . $database['DB_NAME'] . '.html') && file_get_contents('table/' . $database['DB_NAME'] . '.html')) {

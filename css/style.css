@@ -65,3 +65,20 @@ footer{
     background: #fbfbfb;
     border: 1px solid rgba(0,0,0,.08);
 }
+#navbar-demo {
+    display: flex;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+}
+a.h3{
+    color: #000;
+}
+header#navbar-demo{
+    text-align: center;
+}
+div#navbar-brand{
+    margin: 0 auto;
+}
