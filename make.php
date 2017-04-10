@@ -69,7 +69,7 @@ $for = $for_table = '';
 // 循环所有表
 foreach ($tables as $k => $v) {
     if ($v['TABLE_NAME']) {
-        $for_table .= '<li><a href="#' . $v['TABLE_NAME'] . '">' . $v['TABLE_NAME'] . '</a></li>';
+        $for_table .= '<li><a href="#' . $v['TABLE_NAME'] . '">' . $v['TABLE_NAME'] . str_repeat("&nbsp;", 10) . $v['TABLE_COMMENT'] . '</a></li>';
         $for .= '<div class="col col-12" id="' . $v['TABLE_NAME'] . '">';
         $for .= '<fieldset class="contents">';
         $for .= '<legend><a href="#" class="label upper focus">表名：' . $v['TABLE_NAME'] . ' - - ' . $v['TABLE_COMMENT'] . ' <i class="fa fa-fw fa-link" style="display: none"></i></a></legend>';
